@@ -1,3 +1,4 @@
+//path to the haunted directory
 var str_path_ghost = "haunt_your_website/";
 
 //arrays
@@ -59,7 +60,7 @@ function ghost_returnDocWidth(){
 	var num_width = window.innerWidth
 	|| document.documentElement.clientWidth
 	|| document.body.clientWidth;
-
+	
 	return num_width;
 }
 
@@ -67,7 +68,7 @@ function ghost_returnDocHeight(){
 	var num_height = window.innerHeight
 	|| document.documentElement.clientHeight
 	|| document.body.clientHeight;
-
+	
 	return num_height;
 }
 
@@ -443,3 +444,4 @@ function ghost_init(show_bootup){
 function exorcise(){
 	//todo - you cannot exorcise this ghost atm
 }
+
