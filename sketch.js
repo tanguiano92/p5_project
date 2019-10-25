@@ -4,30 +4,35 @@ let zombieImage;
 
 let zombieSound;
 
-function preload(){
+function preload() {
   soundFormats('wav');
   zombieSound = loadSound('audio/zombie_sound.wav');
 }
 
-function setup(){
-noCanvas();
+function setup() {
+  noCanvas();
 
-throwTheSwtch = select('#throwTheSwitch')
-zombieImage = select('#zombie')
+  throwTheSwtch = select('#throwTheSwitch')
+  zombieImage = select('#zombie')
 
 
-throwTheSwtch.mousePressed(toggleZombie);
+  throwTheSwtch.mousePressed(toggleZombie);
+
+
 
 }
-function draw(){
+
+function draw() {
 
 }
 
-function toggleZombie(){
-  
-zombieSound.setVolume(0.1);
-zombieSound.play();
+function toggleZombie() {
 
-zombieImage.show();
+  zombieSound.setVolume(0.1);
+  zombieSound.play();
+
+  setTimeout(function() {
+    zombieImage.show();
+  }, 500);
 
 }
