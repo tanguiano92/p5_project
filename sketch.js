@@ -7,13 +7,13 @@ noCanvas();
 
 throwTheSwtch = select('#throwTheSwitch')
 zombieImage = select('#zombie')
-zombieImage.hide();
 
-throwTheSwitch.mousePressed(toggleZombie);
+
+throwTheSwtch.mousePressed(toggleZombie);
 
 }
 function draw(){
-	noBackground();
+
 }
 
 function toggleZombie(){
