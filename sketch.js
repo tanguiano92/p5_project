@@ -7,6 +7,8 @@ let zombieSound;
 function preload() {
   soundFormats('wav');
   zombieSound = loadSound('audio/zombie_sound.wav');
+
+  zombieImage = loadImage('images/zombie.png');
 }
 
 function setup() {
@@ -19,10 +21,11 @@ function setup() {
   throwTheSwtch.mousePressed(toggleZombie);
 
 
-
 }
 
 function draw() {
+
+image(zombieImage, 0, 0);
 
 }
 
