@@ -1,6 +1,8 @@
 html, body {
-  margin: 0;
-  padding: 0;
+  background-image: url(images/digital.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 canvas {
   display: block;
@@ -11,7 +13,6 @@ section
 	position: relative;
 	width: 100%;
 	height: 100vh;
-  background: url(images/abstract.jpg);
 }
 section:before
 {
@@ -19,13 +20,13 @@ section:before
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: url(images/abstract.jpg);
+	background: url(images/digital.jpg);
 	opacity: .6;
 	mix-blend-mode: hard-light;
 }
 section:hover:before
 {
-	animation: animate .1s linear infinite;
+	animation: animate .8s linear infinite;
 }
 @keyframes animate
 {
