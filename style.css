@@ -1,84 +1,9 @@
-html, body {
-  background-image: url(images/neon_two.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-canvas {
-  display: block;
-}
 
-section
+
+zombieImage
 {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-}
-section:before
-{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: url(images/neon.jpg);
-	opacity: .7;
-	mix-blend-mode: hard-light;
-}
-section:hover:before
-{
-	animation: animate .2s linear infinite;
-}
-@keyframes animate
-{
-	0%
-	{
-		background-position: 0 0;
-		filter: hue-rotate(0deg);
-	}
-	10%
-	{
-		background-position: 5px 0;
-	}
-	20%
-	{
-		background-position: -5px 0;
-	}
-	30%
-	{
-		background-position: 15px 0;
-	}
-	40%
-	{
-		background-position: -5px 0;
-	}
-	50%
-	{
-		background-position: -25px 0;
-	}
-	60%
-	{
-		background-position: -50px 0;
-	}
-	70%
-	{
-		background-position: 0 -20px;
-	}
-	80%
-	{
-		background-position: -60px -20px;
-	}
-	81%
-	{
-		background-position: 0 0;
-	}
-	100%
-	{
-		background-position: 0 0;
-		filter: hue-rotate(360deg);
-	}
-}
-a {
-  color: black;
-  text-decoration: none;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+
 }
