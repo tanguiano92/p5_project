@@ -1,5 +1,11 @@
-h1 {
-  color: red;
+
+body {
+  margin: 30px auto;
+  max-width: 60%;
+  font-family: "Lucida Console", Monaco, monospace;
+  line-height: 1.5;
+  padding: 30px 25px;
+  text-align: center;
 }
 body{
   background-image: url(images/graveyard.jpg);
@@ -7,6 +13,11 @@ background-size: contain;
 background-repeat: no-repeat;
 height: 50%;
 overflow: hidden;
+}
+h1 {
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 10px;
+  color: red;
 }
 button {
   float: right;
