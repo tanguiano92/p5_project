@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 body{
-  background-image: url(images/graveyard.jpg);
+  background-image: url(images/neon_two.jpg);
 background-size: contain;
 background-repeat: no-repeat;
 height: 50%;
@@ -23,6 +23,7 @@ button {
   float: right;
   font-size: 16pt;
   list-style-type: lower-greek;
-  background: green;
+  background: blue;
   padding: 20px;
   margin-right: 15px;
+}
