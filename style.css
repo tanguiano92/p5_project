@@ -27,18 +27,3 @@ button {
   padding: 20px;
   margin-right: 15px;
 }
-.container{
-  position: relative;
-  width: 650px;
-  height: 250px;
-  margin: 240px auto;
-  background: #000;
-}
-.container .box
-{
-  position: relative;
-  width: calc(450px - 30px);
-  height: calc(250px - 30px);
-  background: #ff0;
-  float: left;
-}
