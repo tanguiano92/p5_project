@@ -19,8 +19,6 @@ function setup() {
   throwTheSwtch = select('#throwTheSwitch')
   zombieImage = select('#zombie')
 
-  haaunt = select('#haunt')
-  ghostImage = select('#ghost')
 
 
   throwTheSwtch.mousePressed(toggleZombie);

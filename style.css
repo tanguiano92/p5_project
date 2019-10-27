@@ -18,8 +18,8 @@ button {
   font-size: 16pt;
   list-style-type: lower-greek;
   background: blue;
-  padding: 20px;
-  margin-right: 15px;
+  padding: 5px;
+  margin-right: 5px;
 }
 a {
 color: black;
@@ -28,4 +28,24 @@ text-decoration: none;
 .link:hover {
   color: black;
   background-color: yellow;
+}
+
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+.modal-header{
+  padding: 10px, 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
