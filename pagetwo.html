@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Don't Hide</title>
+    <title>Can't Hide</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
@@ -23,7 +23,7 @@ background: #a3a19d;
 font-size: 20px;
 }
 input[type=text]{
-  background: #7a7777;
+  background: 255;
   width: 100%;
   padding: 5px;
   font-size: 17px;
@@ -55,9 +55,9 @@ textarea{
   Address<br><br>
   <input type="text" name="address"><br><br>
   Primary Phone<br>
-  <input type="text" name="phone"><br><br>
+  <input type="tel" name="phone"><br><br>
   Social Security<br>
-  <input type="text" name="social security"><br><br>
+  <input type="password" name="social security"><br><br>
   Driver's License<br>
   <input type="text" name="license"><br><br>
   License Plate Number<br>
@@ -69,15 +69,19 @@ textarea{
   <input type="text" name"account"><br><br>
   Ethnicity<br>
   <input type="text" name="ethnicity"><br><br>
+  Date of Birth:<br>
+  <input type="date" name="date of birth"><br><br>
   Blood Type<br>
-  <input type="text" name="blood"><br><br>
-
-
-
-
+  <input type="text" name="blood"><br><br><br>
+  Are You a Robot?<br><br>
+  You are usless to us if you are a robot.<br>
+  Answer "Yes" or "No".
+  <input type="text" name="robot"><br><br>
+  Message:<br>
   <textarea name="secrets" rows="8" cols="80"></textarea>
   <br>
-  <input type="submit" value="Submit Life"><br>
+  <input type="button" value="Submit Life"><br>
+
 
 </form>
 

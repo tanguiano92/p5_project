@@ -5,6 +5,7 @@ let zombieImage;
 let zombieSound;
 
 
+
 function preload() {
   soundFormats('wav');
   zombieSound = loadSound('audio/zombie_sound.wav');
