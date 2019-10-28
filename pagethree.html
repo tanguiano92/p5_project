@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>It's Okay To Say No</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 <style>
@@ -23,15 +25,15 @@ body {
     <br>
     <br>
 
-    <button>Open Modal</button>
+    <button data-modal-target="#modal" id='openModal'>Open Modal</button>
     <div class="modal" id="modal">
       <div class="modal-header">
         <div class="title">Example Modal Text</div>
-        <button class="close-button">&times;</button>
+        <button data-close-button class="close-button" id='close-button'>&times;</button>
         </div>
         <div class="modal-body">
           lorem80
     </div>
-    <div class="overlay"></div>
+    <div id="overlay"></div>
   </body>
 </html>

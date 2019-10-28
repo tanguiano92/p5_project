@@ -1,12 +1,10 @@
 let throwTheSwtch;
 
-let haaunt;
-
 let zombieImage;
 
 let zombieSound;
 
-let ghostImage;
+let openModalButton;
 
 function preload() {
   soundFormats('wav');
@@ -19,7 +17,9 @@ function setup() {
   throwTheSwtch = select('#throwTheSwitch')
   zombieImage = select('#zombie')
 
+  modalButton = select('#openModal')
 
+  openModalButton.mousePressed(modalButton);
 
   throwTheSwtch.mousePressed(toggleZombie);
 
@@ -29,7 +29,9 @@ function setup() {
 
 function draw() {
 
-                }
+}
+
+
 
 function toggleZombie() {
 
@@ -41,8 +43,7 @@ function toggleZombie() {
   }, 500);
 
 }
-
-function ghostie(){
-
-
+function modalButton()
+{
+  modalButton.show();
 }
