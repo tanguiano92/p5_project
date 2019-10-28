@@ -4,7 +4,6 @@ let zombieImage;
 
 let zombieSound;
 
-let openModalButton;
 
 function preload() {
   soundFormats('wav');
@@ -17,9 +16,6 @@ function setup() {
   throwTheSwtch = select('#throwTheSwitch')
   zombieImage = select('#zombie')
 
-  modalButton = select('#openModal')
-
-  openModalButton.mousePressed(modalButton);
 
   throwTheSwtch.mousePressed(toggleZombie);
 
@@ -42,8 +38,4 @@ function toggleZombie() {
     zombieImage.show();
   }, 500);
 
-}
-function modalButton()
-{
-  modalButton.show();
 }
